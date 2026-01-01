@@ -40,7 +40,21 @@
             align-items: center;
             z-index: 2000;
             transition: opacity 1s ease, visibility 1s;
-        }
+        }*/
+
+        #main-content {
+    display: none; /* Caché au chargement */
+    text-align: center;
+    transition: opacity 1s ease-in;
+}
+
+#intro-screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a; /* Fond sombre pour mieux voir les feux d'artifice */
+}
 
         #start-btn {
             padding: 20px 40px;
